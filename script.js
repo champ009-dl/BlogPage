@@ -1,0 +1,1 @@
+alert("hello welcome to this awesome web site")

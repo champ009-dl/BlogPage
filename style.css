@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.forum-regular {
+  font-family: "Forum", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+body{
+    background-color: rgb(217, 217, 217);
+}    
+.head-bar{
+    padding-top:20px ;
+    height: 130px;
+    text-align: center;
+}
+h1{
+  
+     font-weight: 350;
+     font-size: 3rem;
+     opacity: 0.7;
+    }
+    h3{
+        opacity: 0.8;
+    font-weight: 350;
+}
+.divider{
+  
+    border: none;
+    height: 1px;
+    width: 88%;
+    margin: auto;
+    opacity: 0.5;
+    background-color: black;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.30);
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    height: 78vh;
+    margin: 0 auto;
+}
+.aside-bar{
+    margin-top: 15px;
+    background-color: white;
+    padding: 6px;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 408px;
+}
+.aside-bar img{
+    object-fit: cover;
+    width: 270px;
+    height: 350px;
+}
+.aside-bar p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.hero-content{
+    width:70% ;
+}
+article{
+    margin-top: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 380;
+    margin-bottom: 15px;
+  
+    
+}
+span{
+ 
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 380;
+}
+ul{
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+li{
+    font-size: 15px;
+    opacity: 0.7;
+   
+}
